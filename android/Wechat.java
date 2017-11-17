@@ -9,7 +9,7 @@ import com.taobao.weex.common.WXModule;
 import com.instapp.nat.wechat.WechatModule;
 import com.instapp.nat.wechat.ModuleResultListener;
 
-import org.json.JSONObject;
+import com.alibaba.fastjson.JSONObject;
 
 /**
  * Created by Acathur on 23/10/2017.

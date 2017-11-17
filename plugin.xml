@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://www.w3.org/ns/widgets"
     id="nat-wechat"
-    version="0.1.3">
+    version="0.1.4">
     <name>nat-wechat</name>
     <description>Nat.js module for weex: Wechat (Share, Auth, Pay)</description>
     <license>MIT</license>
