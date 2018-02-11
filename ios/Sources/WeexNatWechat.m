@@ -6,10 +6,13 @@
 //
 
 #import "WeexNatWechat.h"
-#import "NatWechat.h"
+#import <WeexPluginLoader/WeexPluginLoader.h>
+#import <NatWechat/NatWechat.h>
 
 @implementation WeexNatWechat
 @synthesize weexInstance;
+
+WX_PlUGIN_EXPORT_MODULE(nat/wechat, WeexNatWechat)
 WX_EXPORT_METHOD(@selector(init::))
 WX_EXPORT_METHOD(@selector(checkInstalled:))
 WX_EXPORT_METHOD(@selector(share::))

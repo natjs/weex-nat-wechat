@@ -8,7 +8,6 @@
 #import <Foundation/Foundation.h>
 #import <WeexSDK/WeexSDK.h>
 
-
 @protocol NatWechatPro <WXModuleProtocol>
 
 - (void)init:(NSString *)appId :(WXModuleCallback)callback;
